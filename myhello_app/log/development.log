@@ -1,0 +1,81 @@
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:16:44 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/verynice/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/verynice/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 485ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:17:54 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/verynice/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/verynice/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (8.2ms)
+Completed 200 OK in 21ms (Views: 15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:48:55 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:56:00 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.9ms)
+Completed 500 Internal Server Error in 5ms (Views: 3.4ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/application_controller.rb:5:in `hello'
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:56:28 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:56:30 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:56:32 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 13:57:19 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 14:37:25 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 14:37:26 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-21 14:37:29 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms)
+
+
